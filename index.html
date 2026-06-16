@@ -1,1 +1,211 @@
-Hello World 2
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kate Pilates | Private, Personalized Pilates</title>
+    <meta
+      name="description"
+      content="Kate Pilates offers calm, private, and personalized Pilates sessions designed around your body, your goals, and your pace."
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
+  </head>
+  <body>
+    <header class="site-header" aria-label="Primary navigation">
+      <a class="site-logo" href="#home">
+        <img
+          class="site-logo__img"
+          src="assets/header-logo-cropped.png"
+          width="710"
+          height="555"
+          alt=""
+          loading="eager"
+          decoding="async"
+          fetchpriority="high"
+        />
+        <span class="site-logo__text">Kate Pilates</span>
+      </a>
+      <div class="header-actions">
+        <nav class="nav">
+          <a class="active" href="#home">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+
+        <a class="button header-button" href="contact.html" aria-label="Book a private session">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M7 3v3M17 3v3M4.5 9.5h15M6.5 5.5h11a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2h-11a2 2 0 0 1-2-2v-11a2 2 0 0 1 2-2Z" />
+          </svg>
+          <span>Book a Private Session</span>
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="hero" aria-labelledby="hero-heading">
+        <img
+          class="hero-photo"
+          src="assets/pilates-hero.png"
+          alt="Pilates instructor guiding a client through a reformer stretch in a bright studio"
+          loading="eager"
+          decoding="async"
+          fetchpriority="high"
+        />
+        <div id="about" class="hero-copy">
+          <img
+            class="hero-brand"
+            src="assets/pilates-logo-lockup.png"
+            alt="Pilates, private personalized purposeful"
+            loading="eager"
+            decoding="async"
+          />
+          <h1 id="hero-heading">Private Pilates that meets you where you are</h1>
+          <p class="intro">
+            Work one-on-one with Kate in sessions shaped around your body, your pace, and the way
+            you want to feel: stronger, steadier, and more at home in your movement.
+          </p>
+          <a class="button hero-button" href="contact.html">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M7 3v3M17 3v3M4.5 9.5h15M6.5 5.5h11a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2h-11a2 2 0 0 1-2-2v-11a2 2 0 0 1 2-2Z" />
+            </svg>
+            <span>Book a Private Session</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="meet section" aria-labelledby="meet-title">
+        <div class="meet__content">
+          <p class="section__kicker">Meet Kate</p>
+          <h2 id="meet-title">Thoughtful movement, personal attention</h2>
+          <p>
+            Kate Pilates is built for people who want a quieter, more personal way to get strong.
+            Each session is guided with clear cues, steady encouragement, and adjustments that make
+            the work feel right for your body.
+          </p>
+          <p>
+            Whether you are new to Pilates, returning after time away, or refining an existing
+            practice, Kate keeps the focus on progress you can actually feel: better alignment,
+            easier posture, and strength that carries into daily life.
+          </p>
+        </div>
+        <div class="meet__note" aria-label="A note from Kate">
+          <p class="meet__script">A note from Kate</p>
+          <p>
+            My goal is for you to leave each session feeling listened to, challenged in the right
+            way, and a little more connected to yourself.
+          </p>
+        </div>
+      </section>
+
+      <section class="home-focus section" aria-labelledby="home-focus-title">
+        <p class="section__kicker">Kate's Focus</p>
+        <h2 id="home-focus-title">Pilates for injuries, rehab, dancers, and athletes</h2>
+        <div class="home-focus__grid">
+          <article>
+            <h3>Injuries & Rehab</h3>
+            <p>Support for injuries, rehab needs, knee injuries, lower back pain, and scoliosis.</p>
+          </article>
+          <article>
+            <h3>Athletes</h3>
+            <p>Strength, mobility, control, and body mechanics for active clients.</p>
+          </article>
+          <article>
+            <h3>Dancers</h3>
+            <p>Programs adjusted for dancers, injury history, alignment, and fluid movement.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="sessions section" aria-labelledby="sessions-title">
+        <div class="sessions__intro">
+          <p class="section__kicker">Session Options</p>
+          <h2 id="sessions-title">Choose the pace that fits you</h2>
+          <p>
+            Start with private attention or bring someone with you. Both options are personalized,
+            focused, and built around how your body moves.
+          </p>
+        </div>
+        <div class="session-grid">
+          <a class="session-card" href="services.html#private">
+            <span class="session-card__eyebrow">One-on-one</span>
+            <h3>Private Sessions</h3>
+            <p>Focused training for your goals, questions, body, and injury history.</p>
+            <b>From $145</b>
+            <small>View private options</small>
+          </a>
+          <a class="session-card" href="services.html#duet">
+            <span class="session-card__eyebrow">Two people</span>
+            <h3>Duet Sessions</h3>
+            <p>Bring a friend or partner for a shared session that still feels personal.</p>
+            <b>$95/person</b>
+            <small>View duet options</small>
+          </a>
+        </div>
+      </section>
+
+      <section id="services" class="benefits section section--center" aria-labelledby="benefits-title">
+        <p class="section__kicker">How Sessions Feel</p>
+        <h2 id="benefits-title">Pilates with a personal plan</h2>
+        <p class="section-intro section__copy">
+          Every body arrives with a different story. Kate adapts each session so the work feels
+          focused, supportive, and useful beyond the studio.
+        </p>
+
+        <div class="benefit-grid">
+          <article class="benefit">
+            <img class="benefit-icon" src="assets/icon-core.png" alt="" aria-hidden="true" />
+            <h3>Strong Core</h3>
+            <p>Build deep strength so everyday movement feels more stable.</p>
+          </article>
+          <article class="benefit">
+            <img class="benefit-icon" src="assets/icon-posture.png" alt="" aria-hidden="true" />
+            <h3>Better Posture</h3>
+            <p>Find alignment cues that help reduce tension and strain.</p>
+          </article>
+          <article class="benefit">
+            <img class="benefit-icon" src="assets/icon-flexibility.png" alt="" aria-hidden="true" />
+            <h3>Increased Flexibility</h3>
+            <p>Improve mobility gradually, with control and confidence.</p>
+          </article>
+          <article class="benefit">
+            <img class="benefit-icon" src="assets/icon-mind-body.png" alt="" aria-hidden="true" />
+            <h3>Mind-Body Connection</h3>
+            <p>Practice with attention, breath, and calm body awareness.</p>
+          </article>
+          <article class="benefit">
+            <img class="benefit-icon" src="assets/icon-lean-muscles.png" alt="" aria-hidden="true" />
+            <h3>Long, Lean Muscles</h3>
+            <p>Strengthen with precision for balanced, graceful movement.</p>
+          </article>
+          <article class="benefit">
+            <img class="benefit-icon" src="assets/icon-every-body.png" alt="" aria-hidden="true" />
+            <h3>Supports Every Body</h3>
+            <p>Choose modifications that honor your level, needs, and goals.</p>
+          </article>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer__brand">
+        <a class="site-footer__logo" href="index.html#home">Kate Pilates</a>
+        <p>Private Reformer Pilates for injuries, rehab, dancers, athletes, and thoughtful movement.</p>
+      </div>
+      <nav class="site-footer__nav" aria-label="Footer navigation">
+        <a href="index.html#home">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="site-footer__contact">
+        <a href="sms:+14254490838">Text: 425-449-0838</a>
+        <a href="mailto:katepilates@fastmail.com">katepilates@fastmail.com</a>
+        <span>Elevate Pilates Studio</span>
+        <span>Three Embarcadero Center, Lobby Level (2nd floor), San Francisco, CA 94111</span>
+      </div>
+    </footer>
+  </body>
+</html>

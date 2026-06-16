@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kate Pilates Design System</title>
+    <meta
+      name="description"
+      content="Design tokens, buttons, typography, cards, and form elements for the Kate Pilates website."
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
+  </head>
+  <body class="design-system-page">
+    <header class="site-header" aria-label="Primary navigation">
+      <a class="site-logo" href="index.html#home">
+        <img
+          class="site-logo__img"
+          src="assets/header-logo-cropped.png"
+          width="710"
+          height="555"
+          alt=""
+          loading="eager"
+          decoding="async"
+        />
+        <span class="site-logo__text">Kate Pilates</span>
+      </a>
+      <div class="header-actions">
+        <nav class="nav">
+          <a href="index.html#home">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+
+        <a class="button header-button" href="index.html#services" aria-label="Book a private session">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M7 3v3M17 3v3M4.5 9.5h15M6.5 5.5h11a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2h-11a2 2 0 0 1-2-2v-11a2 2 0 0 1 2-2Z" />
+          </svg>
+          <span>Book a Private Session</span>
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <section class="system-hero section">
+        <p class="section__kicker">Design System</p>
+        <h1>Kate Pilates Website Elements</h1>
+        <p class="system-lead">
+          A compact set of reusable styles for pages, calls to action, service sections, cards,
+          and simple forms.
+        </p>
+      </section>
+
+      <section class="system-section section">
+        <p class="section__kicker">Color</p>
+        <h2>Palette</h2>
+        <div class="swatch-grid" aria-label="Design system colors">
+          <div class="swatch"><span style="background: var(--ink)"></span><b>Ink</b><small>#3f3b39</small></div>
+          <div class="swatch"><span style="background: var(--muted)"></span><b>Muted</b><small>#666160</small></div>
+          <div class="swatch"><span style="background: var(--canvas)"></span><b>Canvas</b><small>#fffdfb</small></div>
+          <div class="swatch"><span style="background: var(--surface-soft)"></span><b>Soft</b><small>#f8f5f2</small></div>
+          <div class="swatch"><span style="background: var(--accent)"></span><b>Accent</b><small>#7c5cc4</small></div>
+          <div class="swatch"><span style="background: var(--accent-dark)"></span><b>Accent Dark</b><small>#6d45b6</small></div>
+        </div>
+      </section>
+
+      <section class="system-section section">
+        <p class="section__kicker">Actions</p>
+        <h2>Buttons</h2>
+        <div class="component-row">
+          <a class="button" href="index.html#services">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M7 3v3M17 3v3M4.5 9.5h15M6.5 5.5h11a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2h-11a2 2 0 0 1-2-2v-11a2 2 0 0 1 2-2Z" />
+            </svg>
+            <span>Primary Button</span>
+          </a>
+          <a class="button button--secondary" href="index.html#services">Secondary Button</a>
+          <a class="button button--small" href="index.html#services">Small Button</a>
+        </div>
+      </section>
+
+      <section class="system-section section">
+        <p class="section__kicker">Type</p>
+        <h2>Typography</h2>
+        <div class="type-sample">
+          <h1>Page headline for calm confidence</h1>
+          <h2>Section heading</h2>
+          <p>
+            Body copy should feel warm, clear, and easy to scan. It uses generous line-height and
+            restrained color so the imagery and calls to action can lead.
+          </p>
+        </div>
+      </section>
+
+      <section class="system-section section">
+        <p class="section__kicker">Content</p>
+        <h2>Cards</h2>
+        <div class="card-grid">
+          <article class="content-card">
+            <img class="benefit-icon" src="assets/icon-core.png" alt="" aria-hidden="true" />
+            <h3>Benefit Card</h3>
+            <p>Use for service benefits, session details, or short supporting content.</p>
+          </article>
+          <article class="content-card">
+            <img class="benefit-icon" src="assets/icon-flexibility.png" alt="" aria-hidden="true" />
+            <h3>Service Card</h3>
+            <p>Keep cards compact, direct, and aligned with the same spacing rhythm.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="system-section section">
+        <p class="section__kicker">Forms</p>
+        <h2>Inputs</h2>
+        <form class="sample-form">
+          <label>
+            Name
+            <input class="field" type="text" placeholder="Your name" />
+          </label>
+          <label>
+            Session Type
+            <select class="field">
+              <option>Private session</option>
+              <option>Duet session</option>
+            </select>
+          </label>
+          <label>
+            Notes
+            <textarea class="field" rows="4" placeholder="Tell me what you are working toward"></textarea>
+          </label>
+          <button class="button" type="button">Send Inquiry</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer__brand">
+        <a class="site-footer__logo" href="index.html#home">Kate Pilates</a>
+        <p>Private Reformer Pilates for injuries, rehab, dancers, athletes, and thoughtful movement.</p>
+      </div>
+      <nav class="site-footer__nav" aria-label="Footer navigation">
+        <a href="index.html#home">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="site-footer__contact">
+        <a href="sms:+14254490838">Text: 425-449-0838</a>
+        <a href="mailto:katepilates@fastmail.com">katepilates@fastmail.com</a>
+        <span>Elevate Pilates Studio</span>
+        <span>Three Embarcadero Center, Lobby Level (2nd floor), San Francisco, CA 94111</span>
+      </div>
+    </footer>
+  </body>
+</html>
